@@ -1,5 +1,5 @@
 {
-    "name": "scandipwa/store-graphql",
+    "name": "scandipwa/directory-graphql",
     "description": "Magneto 2 Directory related functionality extension",
     "type": "magento2-module",
     "require": {
@@ -20,6 +20,5 @@
         "psr-4": {
             "ScandiPWA\\DirectoryGraphQl\\": ""
         }
-    },
-    "version": "100.4.0"
+    }
 }
