@@ -10,8 +10,7 @@
         "../../../../vendor/magento/framework": "103.0.*"
     },
     "license": [
-        "OSL-3.0",
-        "AFL-3.0"
+        "OSL-3.0"
     ],
     "autoload": {
         "files": [
