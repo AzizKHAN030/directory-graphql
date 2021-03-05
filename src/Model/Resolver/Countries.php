@@ -73,7 +73,7 @@ class Countries extends BaseCountries
             $result = $this->dataProcessor->buildOutputDataArray($country, CountryInformationInterface::class);
 
             if (in_array($result['id'], $countriesRequireState)) {
-                $result['is_state_required'] = (boolean) true;
+                $result['is_state_required'] = true;
             }
 
             $output[] = $result;
